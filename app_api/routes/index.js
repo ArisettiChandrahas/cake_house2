@@ -6,6 +6,7 @@ var ctrlReviews = require('../controllers/reviews');
 
 router.post('/cakes', ctrlLocations.cakesCreate);
 router.get('/cakes/:locationid', ctrlLocations.cakesReadOne);
+
 router.put('/cakes/:locationid', ctrlLocations.cakesUpdateOne);
 router.delete('/cakes/:locationid', ctrlLocations.cakesDeleteOne);
 
